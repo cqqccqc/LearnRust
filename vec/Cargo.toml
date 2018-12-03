@@ -1,0 +1,6 @@
+[package]
+name = "vec"
+version = "0.1.0"
+authors = ["q.chen <q.chen@ctrip.com>"]
+
+[dependencies]

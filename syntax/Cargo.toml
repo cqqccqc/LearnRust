@@ -3,4 +3,5 @@ name = "syntax"
 version = "0.1.0"
 authors = ["陈琦 <cqqccqc@foxmail.com>"]
 
-[dependencies]
+[dependencies.communicator]
+path = "../communicator" 
