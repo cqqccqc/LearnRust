@@ -1,0 +1,6 @@
+[package]
+name = "closure"
+version = "0.1.0"
+authors = ["chenqi <cqqccqc@foxmail.com>"]
+
+[dependencies]
