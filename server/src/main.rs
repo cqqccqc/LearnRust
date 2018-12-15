@@ -1,4 +1,3 @@
-use server::ThreadPool;
 use std::fs;
 use std::io::Read;
 use std::io::Write;
@@ -43,4 +42,22 @@ fn handle_connection(mut stream: TcpStream) {
 
     stream.write(response.as_bytes()).unwrap();
     stream.flush().unwrap();
+}
+
+struct ThreadPool {
+    
+}
+
+impl ThreadPool {
+    fn new(size: usize) -> Self {
+        assert!(size > 0);
+        ThreadPool
+    }
+
+    fn execute<F>(&self, f: F)
+    where
+        F: FnOnce() + Send + 'static,
+    {
+
+    }
 }
